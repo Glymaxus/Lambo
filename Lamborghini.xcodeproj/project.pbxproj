@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA09385A261C656300ED48FA /* LamboGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093859261C656300ED48FA /* LamboGalleryView.swift */; };
+		BA09385F261D9BEC00ED48FA /* PriceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09385E261D9BEC00ED48FA /* PriceCardView.swift */; };
+		BA093863261DA20200ED48FA /* RealeaseDateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093862261DA20200ED48FA /* RealeaseDateCardView.swift */; };
+		BA2115E92619B641000E89A2 /* LamboGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2115E82619B641000E89A2 /* LamboGridItemView.swift */; };
+		BA2115EE2619B740000E89A2 /* LamboGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2115ED2619B740000E89A2 /* LamboGridView.swift */; };
+		BA2115F12619B7F5000E89A2 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2115F02619B7F5000E89A2 /* SectionView.swift */; };
+		BAE924D32617207400219418 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE924D22617207400219418 /* MainView.swift */; };
+		BAE924D62617472B00219418 /* LamborghiniListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE924D52617472B00219418 /* LamborghiniListView.swift */; };
+		BAE924D9261754EE00219418 /* LamborghiniPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE924D8261754EE00219418 /* LamborghiniPresentationView.swift */; };
+		BAE924DC261868CD00219418 /* LamboghiniDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE924DB261868CD00219418 /* LamboghiniDetailView.swift */; };
+		BAEBB89B26170759004EA4FE /* LamborghiniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBB89A26170759004EA4FE /* LamborghiniApp.swift */; };
+		BAEBB89D26170759004EA4FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBB89C26170759004EA4FE /* ContentView.swift */; };
+		BAEBB89F26170759004EA4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEBB89E26170759004EA4FE /* Assets.xcassets */; };
+		BAEBB8A226170759004EA4FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEBB8A126170759004EA4FE /* Preview Assets.xcassets */; };
+		BAEBB8AD26170C53004EA4FE /* Lamborgini.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBB8AC26170C53004EA4FE /* Lamborgini.swift */; };
+		BAEBB8B326171026004EA4FE /* LamborginiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBB8B226171026004EA4FE /* LamborginiData.swift */; };
+		BAEBB8B826171252004EA4FE /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBB8B726171252004EA4FE /* CustomShape.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA093859261C656300ED48FA /* LamboGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamboGalleryView.swift; sourceTree = "<group>"; };
+		BA09385E261D9BEC00ED48FA /* PriceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCardView.swift; sourceTree = "<group>"; };
+		BA093862261DA20200ED48FA /* RealeaseDateCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealeaseDateCardView.swift; sourceTree = "<group>"; };
+		BA2115E82619B641000E89A2 /* LamboGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamboGridItemView.swift; sourceTree = "<group>"; };
+		BA2115ED2619B740000E89A2 /* LamboGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamboGridView.swift; sourceTree = "<group>"; };
+		BA2115F02619B7F5000E89A2 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		BAE924D22617207400219418 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BAE924D52617472B00219418 /* LamborghiniListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamborghiniListView.swift; sourceTree = "<group>"; };
+		BAE924D8261754EE00219418 /* LamborghiniPresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamborghiniPresentationView.swift; sourceTree = "<group>"; };
+		BAE924DB261868CD00219418 /* LamboghiniDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamboghiniDetailView.swift; sourceTree = "<group>"; };
+		BAEBB89726170759004EA4FE /* Lamborghini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lamborghini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEBB89A26170759004EA4FE /* LamborghiniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamborghiniApp.swift; sourceTree = "<group>"; };
+		BAEBB89C26170759004EA4FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAEBB89E26170759004EA4FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAEBB8A126170759004EA4FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAEBB8A326170759004EA4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEBB8AC26170C53004EA4FE /* Lamborgini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lamborgini.swift; sourceTree = "<group>"; };
+		BAEBB8B226171026004EA4FE /* LamborginiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamborginiData.swift; sourceTree = "<group>"; };
+		BAEBB8B726171252004EA4FE /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAEBB89426170759004EA4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA093858261C654800ED48FA /* LamboGallery */ = {
+			isa = PBXGroup;
+			children = (
+				BA093859261C656300ED48FA /* LamboGalleryView.swift */,
+			);
+			path = LamboGallery;
+			sourceTree = "<group>";
+		};
+		BA09385D261D9BCF00ED48FA /* PriceRealeaseDateCards */ = {
+			isa = PBXGroup;
+			children = (
+				BA09385E261D9BEC00ED48FA /* PriceCardView.swift */,
+				BA093862261DA20200ED48FA /* RealeaseDateCardView.swift */,
+			);
+			path = PriceRealeaseDateCards;
+			sourceTree = "<group>";
+		};
+		BA2115EB2619B70D000E89A2 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				BA09385D261D9BCF00ED48FA /* PriceRealeaseDateCards */,
+				BA093858261C654800ED48FA /* LamboGallery */,
+				BA2115F32619B8CF000E89A2 /* LamboGrid */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		BA2115F32619B8CF000E89A2 /* LamboGrid */ = {
+			isa = PBXGroup;
+			children = (
+				BA2115E82619B641000E89A2 /* LamboGridItemView.swift */,
+				BA2115ED2619B740000E89A2 /* LamboGridView.swift */,
+				BA2115F02619B7F5000E89A2 /* SectionView.swift */,
+			);
+			path = LamboGrid;
+			sourceTree = "<group>";
+		};
+		BAEBB88E26170759004EA4FE = {
+			isa = PBXGroup;
+			children = (
+				BAEBB89926170759004EA4FE /* Lamborghini */,
+				BAEBB89826170759004EA4FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAEBB89826170759004EA4FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAEBB89726170759004EA4FE /* Lamborghini.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAEBB89926170759004EA4FE /* Lamborghini */ = {
+			isa = PBXGroup;
+			children = (
+				BA2115EB2619B70D000E89A2 /* Component */,
+				BAEBB8AA26170C31004EA4FE /* View */,
+				BAEBB8AB26170C3C004EA4FE /* Model */,
+				BAEBB8B126171014004EA4FE /* Data */,
+				BAEBB8B626171238004EA4FE /* utility */,
+				BAEBB89A26170759004EA4FE /* LamborghiniApp.swift */,
+				BAEBB89E26170759004EA4FE /* Assets.xcassets */,
+				BAEBB8A326170759004EA4FE /* Info.plist */,
+				BAEBB8A026170759004EA4FE /* Preview Content */,
+			);
+			path = Lamborghini;
+			sourceTree = "<group>";
+		};
+		BAEBB8A026170759004EA4FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BAEBB8A126170759004EA4FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAEBB8AA26170C31004EA4FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAEBB89C26170759004EA4FE /* ContentView.swift */,
+				BAE924D22617207400219418 /* MainView.swift */,
+				BAE924D52617472B00219418 /* LamborghiniListView.swift */,
+				BAE924D8261754EE00219418 /* LamborghiniPresentationView.swift */,
+				BAE924DB261868CD00219418 /* LamboghiniDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAEBB8AB26170C3C004EA4FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAEBB8AC26170C53004EA4FE /* Lamborgini.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAEBB8B126171014004EA4FE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BAEBB8B226171026004EA4FE /* LamborginiData.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		BAEBB8B626171238004EA4FE /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				BAEBB8B726171252004EA4FE /* CustomShape.swift */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAEBB89626170759004EA4FE /* Lamborghini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEBB8A626170759004EA4FE /* Build configuration list for PBXNativeTarget "Lamborghini" */;
+			buildPhases = (
+				BAEBB89326170759004EA4FE /* Sources */,
+				BAEBB89426170759004EA4FE /* Frameworks */,
+				BAEBB89526170759004EA4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lamborghini;
+			productName = Lamborghini;
+			productReference = BAEBB89726170759004EA4FE /* Lamborghini.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAEBB88F26170759004EA4FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BAEBB89626170759004EA4FE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = BAEBB89226170759004EA4FE /* Build configuration list for PBXProject "Lamborghini" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAEBB88E26170759004EA4FE;
+			productRefGroup = BAEBB89826170759004EA4FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAEBB89626170759004EA4FE /* Lamborghini */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAEBB89526170759004EA4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEBB8A226170759004EA4FE /* Preview Assets.xcassets in Resources */,
+				BAEBB89F26170759004EA4FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAEBB89326170759004EA4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA09385F261D9BEC00ED48FA /* PriceCardView.swift in Sources */,
+				BAE924D62617472B00219418 /* LamborghiniListView.swift in Sources */,
+				BAEBB8B826171252004EA4FE /* CustomShape.swift in Sources */,
+				BAE924D32617207400219418 /* MainView.swift in Sources */,
+				BAEBB89D26170759004EA4FE /* ContentView.swift in Sources */,
+				BA2115E92619B641000E89A2 /* LamboGridItemView.swift in Sources */,
+				BA093863261DA20200ED48FA /* RealeaseDateCardView.swift in Sources */,
+				BAEBB8B326171026004EA4FE /* LamborginiData.swift in Sources */,
+				BAE924D9261754EE00219418 /* LamborghiniPresentationView.swift in Sources */,
+				BAEBB8AD26170C53004EA4FE /* Lamborgini.swift in Sources */,
+				BA09385A261C656300ED48FA /* LamboGalleryView.swift in Sources */,
+				BA2115F12619B7F5000E89A2 /* SectionView.swift in Sources */,
+				BAE924DC261868CD00219418 /* LamboghiniDetailView.swift in Sources */,
+				BAEBB89B26170759004EA4FE /* LamborghiniApp.swift in Sources */,
+				BA2115EE2619B740000E89A2 /* LamboGridView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BAEBB8A426170759004EA4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAEBB8A526170759004EA4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAEBB8A726170759004EA4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lamborghini/Preview Content\"";
+				DEVELOPMENT_TEAM = 827NDX56M9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Lamborghini/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.glymaxus.Lamborghini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAEBB8A826170759004EA4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lamborghini/Preview Content\"";
+				DEVELOPMENT_TEAM = 827NDX56M9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Lamborghini/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.glymaxus.Lamborghini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAEBB89226170759004EA4FE /* Build configuration list for PBXProject "Lamborghini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEBB8A426170759004EA4FE /* Debug */,
+				BAEBB8A526170759004EA4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEBB8A626170759004EA4FE /* Build configuration list for PBXNativeTarget "Lamborghini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEBB8A726170759004EA4FE /* Debug */,
+				BAEBB8A826170759004EA4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAEBB88F26170759004EA4FE /* Project object */;
+}
